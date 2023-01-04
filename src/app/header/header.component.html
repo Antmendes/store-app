@@ -2,14 +2,14 @@
     <h1 class="main-header__title">
         <span class="main-header__title--blue">FabulousStore</span><span class="main-header__title--orange">Computers</span>
     </h1>
-    <div class="container-menu">
+    <div class="container-menu ">
     <nav class="main-header__menu">
         <ul>
             <li>
                 <a routerLink="/products">Produtos</a>
             </li>
             <li>
-                <a routerLink="/cart">
+                <a routerLink="/cart" id="cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     Carrinho
                     <span class="badge-car">{{ cartService.getCart().length}}</span>

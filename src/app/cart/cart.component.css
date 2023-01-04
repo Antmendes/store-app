@@ -5,6 +5,8 @@
     padding: 8px 0;
 }
 
+
+
 li {
     display: flex;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -59,4 +61,14 @@ input {
 
 .buy-button:hover {
     filter: brightness(0.9);
+}
+
+@media only screen and (max-width: 670px){
+    .cart-content{
+        width: 100vw;
+    }
+    
+    li{
+        justify-content: space-around;
+    }
 }

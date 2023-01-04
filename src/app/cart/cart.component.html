@@ -1,5 +1,5 @@
 <h2 class="cart-title">Carrrinho</h2>
-<div *ngIf="cartContents.length > 0; else noProducts ">
+<div *ngIf="cartContents.length > 0; else noProducts " class="cart-content">
     <ul>
         <li *ngFor="let itemCarrinho of cartContents">
             <img [src]="itemCarrinho.imagem">

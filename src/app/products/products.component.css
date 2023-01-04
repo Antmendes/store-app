@@ -68,3 +68,13 @@
     filter: brightness(1.1);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 670px){
+    .product-list{
+        width: 100vw;
+    }
+    .product-list__card {
+        width: max-content;
+    }
+
+}

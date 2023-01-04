@@ -28,7 +28,7 @@
 }
 
 .footer__about-text {
-    width: 400px;
+    
     text-align: justify;
 }
 
@@ -39,4 +39,10 @@
 
 .footer li {
     margin: 10px 0;
+}
+
+@media only screen and (min-width: 950px){
+    .section-container{
+        width: 50%;
+    }
 }

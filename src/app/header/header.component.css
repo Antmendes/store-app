@@ -48,6 +48,7 @@
     flex-direction: column;
     row-gap: 20px;
     flex: 1;
+    margin-top: 10px;
 }
 
 .badge-car {
@@ -55,5 +56,36 @@
     padding: 5px 10px;    
     border-radius: 4px;
     color: white;
+}
+
+
+@media only screen and (max-width: 670px){
+    .badge-car{
+        display: none;
+    }
+
+    
+
+    .main-header__menu a {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #cart{
+        display: flex;
+        padding-top: 0;
+        
+    }
+
+    .main-header__title {
+       margin-bottom: 32px;
+    }
+   
+}
+
+@media only screen and (max-width: 900px){
+    .container-menu{
+        margin-top: 15px;
+    }
 }
 
