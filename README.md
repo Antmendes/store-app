@@ -12,6 +12,6 @@
 </ul>
 
 
-<a href="https://antmendes.github.io/store-app/">Link da página</a>
+<a href="store-app-antonio-mendes.netlify.app">Link da página</a>
 
 
